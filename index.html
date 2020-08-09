@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="start(0)">
+    <div class="quizApp">
+        <div>
+            <h1>Quiz App</h1>
+        </div>
+
+        <fieldset >
+            <div id="questions/answer">
+                <h3 id="question"> q# : What is 2+2 </h3>
+            </div>
+
+            <div id="options">
+               <button class="op" onclick="addactive(this)"></button>
+               <button class="op" onclick="addactive(this)"></button>
+               <button class="op" onclick="addactive(this)"></button>
+               <button class="op" onclick="addactive(this)"></button>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <input style="padding: 5px; background-color: lightblue;" type="button" value="Submit" onclick="nextquestion()">
+            </div>
+        </fieldset>
+
+        <!-- <div id="display" style="background-color: DodgerBlue;">
+
+        </div> -->
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

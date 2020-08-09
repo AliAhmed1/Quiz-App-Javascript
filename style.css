@@ -1,0 +1,35 @@
+.quizApp {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: DodgerBlue;
+    flex-direction: column;
+    padding: 100px;
+  }
+  
+  .quizApp>div , fieldset {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px;
+  }
+
+  fieldset{
+      margin-top: 30px;
+      padding: 50px;
+  }
+
+  #questions, #options{
+      margin-top: 15px;
+  }
+
+  #options{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .active, .op:hover {
+    background-color: #666;
+    color: white;
+  }
